@@ -1,0 +1,358 @@
+/* farven på nav */
+.maincolor {
+    background-color: #262525;
+}
+
+/* her defineres højden på nav */
+.navmenu {
+    height: 65px;
+}
+
+/* gør at logo og menupunkterne kan stå på linje med mellemrum mellem dem */
+.parent {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+/* placering og navigation af logoet */
+.logo {
+    width: 89px;
+    height: 53px;
+    padding-left: 4px;
+    padding-top: 2.7px;
+    padding-bottom: 10px;
+}
+
+/* viser hvor de 4 navigationslinks bliver placeret i nav. */
+.menu-container-div {
+    width: 30%;
+}
+
+/* her bestemmes navigationslinks' placering og størrelse i nav */
+.menu-container {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding-right: 7px;
+    padding-top: 3px;
+    font-size: 19px;
+    white-space: nowrap;
+    font-family: 'Rubik', sans-serif;
+
+  }
+
+  /* her er brugt flexbox for at centrere knapperne. man placere den midterste og ud fra den, placeres de tre andre.
+flex betyder at elementerne vil blive formindsket til den plads der er givet */
+.menu-item {
+    flex-basis: 25%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menupunkter {
+    color: #e7e7e5;
+}
+
+a:link {text-decoration: none;}
+a:hover {font-size: 18px;}
+
+/* styling for vores store bille i toppen */
+.big {
+    width: 100%;
+    height: auto;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.billede_m_tekst {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+/* tekst over billede */
+.venstre_midt {
+    position: absolute;
+    top: 25%;
+    left: 3%;  
+    font-size: 35px;
+    color: #e7e7e5;
+}
+
+/* ----------------Newsletter ----------------- */
+.klaviyo-form-XfQDa8 {
+    padding-top: 6%;
+    padding-bottom: 0%;
+    background-color: #e7e7e5;
+    height: 400px;
+}
+
+/* FAKTA */
+
+.fakta-baggrundsfarve {
+    background-color: #262525;
+}
+
+.fakta-venstre {
+    padding-left: 120px;
+}
+
+.fakta-venstre-nederst {
+    padding-left: 120px;
+}
+
+.fakta-højre {
+    padding-right: 210px;
+}
+
+.fakta-højre-nederst {
+    padding-right: 90px;
+}
+
+.fakta-beskrivelse {
+    font-family: 'Rubik', sans-serif;
+    color: #e7e7e5;
+}
+
+.underoverskrift {
+    font-family: 'Heebo', sans-serif;
+    color: #e7e7e5;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.overskrift {
+    font-family: 'Heebo', sans-serif;
+    color: #e7e7e5;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 3%;
+    text-align: center;
+}
+
+/* animation */
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 16.6%; /* 100/6 fordi der er 6 billeder */
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+.tilmelding {
+    color: #262525;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  /* styling til de små billeder */
+  .small {
+    width: 20%;
+    height: 50%;
+    margin-left: 55%;
+  }
+  
+  /* flytter tekst ind under lille billede - de andre */
+  .under_img {
+    font-family: "rubik", sans-serif;
+    padding-left: 45%;
+  }
+  
+  /* flytter tekst ind under lille billede - mix og is */
+  .lidt_mere_skub {
+    font-family: "rubik", sans-serif;
+    padding-left: 53%;
+  }
+  
+  /* brødtekst på egenskaber */
+  #flyt_midt_på {
+    font-family: "rubik", sans-serif;
+    padding-left: 33%;
+    padding-bottom: 1.5%;
+  }
+  
+  /* overskriften på egenskaber */
+  #flyt_midt {
+    font-family: "rubik", sans-serif;
+    padding-left: 30%;
+    margin-bottom: 0px;
+  }
+
+/* ANMELDELSER */
+
+/* baggrundsfarven på anmeldelsessektionen*/
+.baggrundsfarven {
+    background-color: #e7e7e5;
+    padding-top: none;
+  }
+  
+  /* overskriften på anmeldelsessektionen */
+  .header {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 3.5%;
+    padding-top: 3%;
+    font-family: 'Heebo', sans-serif;
+    color: #262525;
+  }
+  
+  /* div'en om alle 3 anmeldelser */
+  .row-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 110px;
+  }
+  
+  /* anmeldelse til venstre */
+  .venstre {
+    width: 400px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  /* midterste anmeldelse */
+  .midten {
+    width: 400px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  /* anmeldelse til højre */
+  .højre {
+    width: 400px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  /* på siden med anmeldelser */
+  .stjerner {
+    height: 30px;
+    width: 153px;
+  }
+  
+  /* på siden med anmeldelser */
+  .navn {
+    font-size: 30px;
+    font-weight: bold;
+    color: #262525;
+    font-family: 'Heebo', sans-serif;
+  }
+  
+  /* på siden med anmeldelser */
+  .beskrivelse {
+    line-height: 150%;
+    color: #262525;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  /* på siden med anmeldelser */
+.dato {
+    font-family: 'Heebo', sans-serif;
+    color: #262525;
+}
+
+
+/* Store billede på siden med kernefortællingen */
+.hero {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  /* hvide boks på siden med kernefortællingen */
+  .boks {
+    opacity: 0.7;
+    position: absolute;
+    top: 3000px;
+    left: 7%;
+    width: 50%;
+    height: 77%;
+  }
+  
+  /* kernefortællingen */
+  .fortaelling {
+    position: absolute;
+    top: 3100px;
+    left: 10%;
+    width: 45%;
+    height: 75%;
+    font-size: 25px;
+    line-height: 58px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+
+  /* FOOTER */
+
+  /* diven om hele footeren */
+.footer-flexbox-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/* hver enkel overskrift og indhold er placeret i hver deres .footer-child */
+.footer-child {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 200px;
+    font-size: 15px;
+}
+
+/* angiver linjeafstand i footeren */
+.line-height {
+    line-height: 25px;
+    color: #e7e7e5;
+}
+
+
+h4 {
+    color: #e7e7e5;
+    font-size: 19px;
+}
+
+.telefon {
+    color: #e7e7e5;
+}
+
+.streg {
+    border: 2px solid #262525; /*laver stregen tykker og solid (tydeliger at se) + giver den farve*/
+}
